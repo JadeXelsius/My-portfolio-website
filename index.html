@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk Inspired Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>J̸̨̙̲̥̜͚̰̉ḁ̴̖̋̀̇̎̂͠d̴̨̜̥̘̙̲̠͇̀̂̄̑͒̓̐o̷̩͇̖͓͎̅̾̕ͅͅỏ̵̻̼̪̕̕͠ ̷͈̦̳̖̓̀̎̓̐̍̚͘Š̸̨̧̹̙͖̜i̶̡̦͈͙̘͇̞̪͌̐͛͊͋̎n̸̳̩̜̤̞̖̳̓̑͒͂̚͝ǵ̸̳͙͉̀̈͌ͅḧ̵̻̳̙̳̗̤</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="transitionText">Nobody</div>
+      <div id="arrowContainer" style="display: none">
+        <p>Scroll down to know more about me</p>
+        <div class="arrow" id="downArrow" onclick="scrollDown()">&#8595;</div>
+      </div>
+    </main>
+    <section id="glowingBoxes">
+      <div class="box">
+        <h1>IGCSE Scores</h1>
+        <h2>Additional Math - A*</h2>
+        <h2>Extended Math - A*</h2>
+        <h2>Hindi - A*</h2>
+        <h2>English Language - A</h2>
+        <h2>Computer Science - A*</h2>
+        <h2>Physics - A*</h2>
+        <h2>Chemistry - A*</h2>
+        <h2>Business Studies - A*</h2>
+      </div>
+      <div class="box">
+        <h1>IB Subjects</h1>
+        <h2>Mathematics Analysis and Approaches(HL)</h2>
+        <h2>Physics(HL)</h2>
+        <h2>Chemistry(HL)</h2>
+        <h2>Economics(SL)</h2>
+        <h2>Hindi B(SL)</h2>
+        <h2>TOK</h2>
+        <h2>English A</h2>
+      </div>
+      <div class="box">
+        <h1>Testing</h1>
+        <h2>SAT - 1480/1600 (Predicted)</h2>
+      </div>
+    </section>
+    <h1 class="skill-title">My Skills</h1>
+    <section id="circularProgressBars">
+      <div class="circle-container">
+        <svg viewbox="0 0 36 36" class="circular-chart">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle"
+            stroke-dasharray="80, 100"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="20.35" class="percentage">HTML</text>
+        </svg>
+      </div>
+      <!-- Repeat the above structure for the other circles and adjust the stroke-dasharray attribute accordingly -->
+      <div class="circle-container">
+        <svg viewbox="0 0 36 36" class="circular-chart">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle"
+            stroke-dasharray="70, 100"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="20.35" class="percentage">CSS</text>
+        </svg>
+      </div>
+      <div class="circle-container">
+        <svg viewbox="0 0 36 36" class="circular-chart">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle"
+            stroke-dasharray="62.5, 100"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="20.35" class="percentage">Python</text>
+        </svg>
+      </div>
+      <div class="circle-container">
+        <svg viewbox="0 0 36 36" class="circular-chart">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle"
+            stroke-dasharray="30, 100"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="20.35" class="percentage">Javascript</text>
+        </svg>
+      </div>
+      <div class="circle-container">
+        <svg viewbox="0 0 36 36" class="circular-chart">
+          <path
+            class="circle-bg"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path
+            class="circle"
+            stroke-dasharray="10, 100"
+            d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="20.35" class="percentage">AI</text>
+        </svg>
+      </div>
+    </section>
+    <section id="neonSection">
+      <p>"A boy can be a human, but a human cannot be a boy."</p>
+      <p>"Rule number 1: the boss is always correct. Rule number 2: follow rule number 1. Rule number 3: follow rule number 2. Rule number 4: follow rule number 3."</p>
+      <p>"If you are shinier than others, then you may be picked from the gutter. Or else you will remain in the scum."</p>
+      <p>"Alone, we are just droplets of water. But together, we are an ocean where the underprivileged can piss in."</p>
+    </section>  
+    <footer>
+      <a><i class='bx bxl-gmail'></i></a>
+      <p>&copy; Created by Aditya Jadoun</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
